@@ -230,6 +230,7 @@ body::before {
   margin-bottom: 0.5rem;
   opacity: 0;
   animation: fadeUp 0.6s 0.4s forwards;
+  position: relative;
 }
 
 .hero-name .accent { color: var(--clr-accent); }
@@ -1163,5 +1164,13 @@ footer span { color: var(--clr-accent); }
 
   #navbar{
     width: 100vw;
+  }
+
+  .orb, .orb-1 ,.orb-2 {
+    display: none;
+}
+
+  #about::before{
+    display: none;
   }
 }
